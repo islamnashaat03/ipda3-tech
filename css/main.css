@@ -1,0 +1,88 @@
+body {
+ height: 6000px;
+ font-family: 'Cairo', sans-serif;
+}
+img { max-width: 100%}
+.navbar-light .navbar-toggler{border: none;}
+.navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(33, 150, 243,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+.navbar-brand img { height: 60px;}
+.nav-item { text-align: left;}
+.side-header {
+background-image: url(../imgs/header-side.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+}
+.side-header h1 {margin-top:126px;font-size: 2.8rem;}
+.who-are-we {margin-top: 50px;}
+ h2 { position: relative;margin-bottom: 70px;font-size: 35px;}
+ h2::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 70px;
+  background-color: #0075ff;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: -28px;
+}
+.who-are-we .row {margin-top: 50px;}
+.who-are-we .row p {font-size: 25px;margin-right: 120px;margin-top: 70px;}
+.what-we-offer {
+  background-image: url(../imgs/we-offer.png);margin-bottom: 70px;}
+.card{border-radius: 30px;}
+.card-edit {margin-top:110px;padding: 60px;width: auto;height: 520px;}
+.card h5 a {text-decoration: none;font-size: 15px;margin-right: 30px;}
+.card-text {margin-top: 15px;text-align: center;font-size: 18px;}
+.owl-nav {text-align: center; margin-top: 50px;}
+.owl-nav span {padding-right: 30px; font-size: 80px;}
+.our-work {background-image: url(../imgs/bg30-Ar1web.gif);}
+.card-edit2 {margin-top:50px;border-radius: 30px!important;}
+.card-edit2 .card-img-top {border-radius: 30px;  padding: auto;}
+.details button {
+  background-color: #233142;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 18px;
+  margin: 50px 35% 70px auto;
+  width: 250px;
+  color:#fff;
+  box-shadow: #e2e2e2;
+}
+.information{margin-top:70px}
+.information .details button {margin:0;width:100px;padding: 5px;}
+.information i {margin-right: 305px;margin-top: -24px;}
+.information i span { color: #aaa;}
+.information .card-img-top {border-radius: 30px;}
+.information .card-edit3 {
+  margin:50px auto 0 auto ;
+  border: 1px solid #e2e2e2;
+  box-shadow: 5px 5px 5px #e2e2e2;
+  padding-bottom: 10px; 
+}
+.information .more {
+  background-color: #233142;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 18px;
+  margin: 50px auto 100px auto;
+  width: 200px;
+  color:#fff;
+  box-shadow: #e2e2e2;
+}
+.our-clients {
+  background-image: url(../imgs/our-client-bg.jpg);
+  background-size: cover;
+  margin-top: 50px; 
+}
+.our-clients .row { margin:30px auto auto auto}
+.our-clients .row img {width:10rem;margin-top: 150px;}
+footer {background-image: url(../imgs/footer.jpg);background-size: cover;background-repeat: no-repeat;width: 100%;}
+footer .first  {margin: auto 0 auto ;}
+footer .first img {max-width: inherit;}
+footer .second {margin-top: 240px;}
+footer .second img {height: 60px;margin-bottom: 30px;}
+/* footer img:first-of-type {height:200px;}
+footer img:nth-last-child() {height:60px;} */
+footer p {color:#fff;font-size: 18px;}
+footer i {margin: 15px;color: #FFF;}
