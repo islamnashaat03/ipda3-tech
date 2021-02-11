@@ -1,0 +1,170 @@
+                                    /* start global  */
+html,body {font-family: 'Cairo', sans-serif;max-width: 100%;overflow-x: hidden;}
+img { max-width: 100%}
+.card{border-radius: 30px;}
+.card h5 a {text-decoration:none;margin-right: 30px;}
+.card-text {margin-top: 15px;text-align: center;font-size: 18px;}
+.details button {
+  background-color: #233142;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 18px;
+  margin: 50px 42% 70px auto;
+  width: 250px;
+  color:#fff;
+  box-shadow: #e2e2e2;
+  outline: none;
+}
+                                  /* end global */
+                                  /* start nav bar  */
+.navbar-light .navbar-toggler{border: none;}
+.navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(33, 150, 243,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+.navbar-brand img { height: 60px;}
+.nav-item { text-align: left;}
+.navbar-nav .dropdown-menu{text-align:left;}
+ input[type="search"]{text-align:left;}
+ form  {text-align: left;}
+                                  /* end nav bar  */
+                                    /* start one app page  */
+.one-app .one-head {margin: 20px;}
+.one-app .one-head h2 { position: relative;font-size: 35px;margin: 30px; }
+.one-app .one-head h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    background-color: #0075ff;
+    position: absolute;   
+    right: -25px;   
+    bottom: -5px;  
+}
+.one-app .background img {    width: 60%;margin: 10px 21%;}
+.one-app .about-one-app {background-image: url(../imgs/details-bg.png);background-size: cover;}
+.one-app .about-one-app p {padding: 70px 0;color:#fff;font-size: 22px;line-height:1.7;}
+.card-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.card-carousel .my-card {
+  height: 20rem;
+  width: 12rem;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(0.6) translateY(-2rem);
+  transform: scale(0.6) translateY(-2rem);
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+  background: #2e5266;
+  background: linear-gradient(to top, #2e5266, #6e8898);
+  transition: 1s;
+}
+
+.card-carousel .my-card:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  border-radius: 100%;
+  background-color: rgba(0,0,0,0.3);
+  bottom: -5rem;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.card-carousel .my-card.active {
+  z-index: 3;
+  -webkit-transform: scale(1) translateY(0) translateX(0);
+  transform: scale(1) translateY(0) translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+  transition: 1s;
+}
+
+.card-carousel .my-card.prev, .card-carousel .my-card.next {
+  z-index: 2;
+  -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+  transform: scale(0.8) translateY(-1rem) translateX(0);
+  opacity: 0.6;
+  pointer-events: auto;
+  transition: 1s;
+}
+.card-carousel .my-card:nth-child(0):before {
+  content: '0';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(1):before {
+  content: '1';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(2):before {
+  content: '2';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(3):before {
+  content: '3';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.card-carousel .my-card:nth-child(4):before {
+  content: '4';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+
+
+                                    /* end one app page  */
+                                       /* start footer  */
+.footer {
+  background-image: url(../imgs/footer.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.footer .first img {margin: 80px -40px -15px 0px;height: 60%;}
+.footer .second {margin-top: 240px;}
+.footer .second img {height: 85px;margin-bottom: 25px;} 
+.footer .second p {color:#fff;font-size: 22px;font-weight: normal;}
+.footer i {margin: 15px;color: #FFF;}
+                                    /* end footer  */
+                                    /* start media  */
+@media (max-width: 768px) {.one-app .about-one-app p{font-size: 18px;}}

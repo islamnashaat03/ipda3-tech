@@ -1,0 +1,64 @@
+                                    /* start global  */
+html,body {font-family: 'Cairo', sans-serif;max-width: 100%;overflow-x: hidden;}
+img { max-width: 100%}
+
+.card{border-radius: 30px;}
+.card h5 a {text-decoration:none;margin-right: 30px;}
+.card-text {margin-top: 15px;text-align: center;font-size: 18px;}
+.details button {
+    background-color: #233142;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 18px;
+    margin: 50px 42% 70px auto;
+    width: 250px;
+    color:#fff;
+    box-shadow: #e2e2e2;
+    outline: none;
+}
+                                    /* end global */
+                                    /* start nav bar  */
+.navbar-light .navbar-toggler{border: none;}
+.navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(33, 150, 243,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
+.navbar-brand img { height: 60px;}
+.nav-item { text-align: left;}
+.navbar-nav .dropdown-menu{text-align:left;}
+input[type="search"]{text-align:left;}
+form  {text-align: left;}
+                                    /* end nav bar  */
+                                  /* start our work  */
+
+.our-work {background-image: url(../imgs/bg30-Ar1web.gif);}
+.our-work .work-head {margin: 30px 10px 50px 0;}
+.our-work .work-head h2 { position: relative;font-size: 35px;margin-right: 30px; }
+.our-work .work-head h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    background-color: #0075ff;
+    position: absolute;   
+    right: -25px;   
+    bottom: -5px;  
+}
+.owl-nav {text-align: center; margin-top: 50px;outline: none;}
+.owl-nav span {padding-right: 30px; font-size: 80px;outline: none;}    
+.card-edit2 {margin-top:50px;position: relative;}
+.card-edit2 a {position:absolute;top: 0;bottom: 0;right: 0;left: 0;z-index: 2;}
+.card-edit2 .card-text {font-size: 30px;margin: 15px auto ;}
+.card-edit2 .card-img-top {border-radius: 30px;}
+                                  
+                                  
+                                /* end our work   */
+                                /* start footer  */
+
+.footer {
+    background-image: url(../imgs/footer.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.footer .first img {margin: 80px -40px -15px 0px;height: 60%;}
+.footer .second {margin-top: 240px;}
+.footer .second img {height: 85px;margin-bottom: 25px;} 
+.footer .second p {color:#fff;font-size: 22px;font-weight: normal;}
+.footer i {margin: 15px;color: #FFF;}
+                                /* end footer  */

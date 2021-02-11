@@ -1,12 +1,8 @@
                                     /* start global  */
-body {
-  height: 6000px;
- font-family: 'Cairo', sans-serif;
-}
+html,body {font-family: 'Cairo', sans-serif;max-width: 100%;overflow-x: hidden;}
 img { max-width: 100%}
 h2 { position: relative;margin-bottom: 70px;font-size: 35px;}
 h2::after {
- position: absolute;
  content: "";
  height: 2px;
  width: 70px;
@@ -17,8 +13,19 @@ h2::after {
  bottom: -28px;
 }
 .card{border-radius: 30px;}
-.card h5 a {text-decoration: none;font-size: 15px;margin-right: 30px;}
+.card h5 a {text-decoration:none;margin-right: 30px;}
 .card-text {margin-top: 15px;text-align: center;font-size: 18px;}
+.details button {
+  background-color: #233142;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 18px;
+  margin: 50px 42% 70px auto;
+  width: 250px;
+  color:#fff;
+  box-shadow: #e2e2e2;
+  outline: none;
+}
                                   /* end global */
                                   /* start nav bar  */
 .navbar-light .navbar-toggler{border: none;}
@@ -35,42 +42,40 @@ background-image: url(../imgs/header-side.jpg);
 background-repeat: no-repeat;
 background-size: contain;
 }
-.side-header h1 {margin-top:126px;font-size: 2.8rem;}
+.side-header h1 {margin-top:126px;font-size: 3.8rem;}
                                   /* end side header  */
                                   /* start who are we  */
 .who-are-we {margin-top: 50px;}
 
-.who-are-we .row {margin-top: 50px;}
-.who-are-we .row p {font-size: 25px;margin-right: 120px;margin-top: 70px;}
+.who-are-we .part {margin-top: 50px;}
+.who-are-we .part p {font-size: 25px;margin-right: 120px;margin-top: 70px;}
                                   /* end who are we  */    
                                   /* start what we offer  */
 .what-we-offer {background-image: url(../imgs/we-offer.png);margin-bottom: 70px;}
-.what-we-offer .card-edit {margin-top:110px;padding: 60px;width: auto;height: 520px;}
+.what-we-offer .card-edit {margin-top:110px;}
+.what-we-offer .card-edit .card-img-top{margin: 50px auto 5px;width: 60%;} 
+.what-we-offer .card-edit p {margin-bottom: 15px; font-size: 20px;}
+.owl-nav {text-align: center; margin-top: 50px;outline: none;}
+.owl-nav span {padding-right: 30px; font-size: 80px;outline: none;}                  
+                                  /* end what we offer  */
+                                  /* start our work  */
 
-.owl-nav {text-align: center; margin-top: 50px;}
-.owl-nav span {padding-right: 30px; font-size: 80px;}
 .our-work {background-image: url(../imgs/bg30-Ar1web.gif);}
-.card-edit2 {margin-top:50px;border-radius: 30px!important;}
-.card-edit2 .card-img-top {border-radius: 30px;  padding: auto;}
-.details button {
-  background-color: #233142;
-  border-radius: 30px;
-  padding: 10px;
-  font-size: 18px;
-  margin: 50px 35% 70px auto;
-  width: 250px;
-  color:#fff;
-  box-shadow: #e2e2e2;
-}
-                                    /* start what we offer  */
+.card-edit2 {margin-top:50px;position: relative;}
+.card-edit2 a {position:absolute;top: 0;bottom: 0;right: 0;left: 0;z-index: 2;}
+.card-edit2 .card-text {font-size: 30px;margin: 15px auto ;}
+.card-edit2 .card-img-top {border-radius: 30px;}
+
+
+                                    /* end our work   */
                                     /* start information  */
 .information{margin-top:70px}
-.information .details button {margin:0;width:100px;padding: 5px;}
-.information i {margin-right: 305px;margin-top: -24px;}
-.information i span { color: #aaa;}
+.information .details button {margin:0 25px 0 0;width:105px;;padding: 12px;text-align: right;}
+.information .group {margin-right:-20px;text-align: left;margin-top: 20px;font-size: 25px;}
+.information i span { color: #aaa;font-size: 24px;}
 .information .card-img-top {border-radius: 30px;}
 .information .card-edit3 {
-  margin:50px auto 0 auto ;
+  margin:50px auto 0  ;
   border: 1px solid #e2e2e2;
   box-shadow: 5px 5px 5px #e2e2e2;
   padding-bottom: 10px; 
@@ -90,20 +95,39 @@ background-size: contain;
 
 .our-clients {
   background-image: url(../imgs/our-client-bg.jpg);
-  background-size: cover;
-  margin-top: 50px; 
-}
-.our-clients .row { margin:30px auto auto auto}
-.our-clients .row img {width:10rem;margin-top: 150px;}
+  background-size: cover; 
+  margin-top: 50px;
+  background-position: bottom;
+} 
+.our-clients .owl-clients img {width:10rem;}
+ .our-clients .owl-clients .owl-nav { margin-bottom: 50px;}
                                         /* start our clients  */
                                        /* start footer  */
-footer {background-image: url(../imgs/footer.jpg);background-size: cover;}
-footer .first img {width:230px;margin: 30px 20px 0 0;}
-footer .second {margin-top: 240px;}
-footer .second img {height: 60px;margin-bottom: 30px;}
-/* footer img:first-of-type {height:200px;}
-footer img:nth-last-child() {height:60px;} */
-footer p {color:#fff;font-size: 18px;}
-footer i {margin: 15px;color: #FFF;}
+.footer {
+  background-image: url(../imgs/footer.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.footer .first img {margin: 80px -40px -15px 0px;height: 60%;}
+.footer .second {margin-top: 240px;}
+.footer .second img {height: 85px;margin-bottom: 25px;} 
+.footer .second p {color:#fff;font-size: 22px;font-weight: normal;}
+.footer i {margin: 15px;color: #FFF;}
                                     /* end footer  */
-                                    /* start media  */
+
+
+
+                                    /*start media  */
+
+@media (max-width: 768px) { 
+  .side-header h1{font-size: 2.8rem;}
+  .who-are-we .part p {font-size: 18px;margin-top: 40px;margin-bottom: 50px;}
+  .card h5 a {font-size: medium;}
+  .details button {margin: 50px 26% 70px auto;}
+  .information .group {margin-top: -35px;}
+  .our-clients .owl-clients img {margin: 60px auto 0;}
+  .our-work {background-size: 100% 100%;}
+}
+
+
+  @media (min-width:1000px) {.our-clients .owl-clients img {margin: 150px auto 0;}}
