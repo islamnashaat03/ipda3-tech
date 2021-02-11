@@ -1,31 +1,6 @@
                                     /* start global  */
 html,body {font-family: 'Cairo', sans-serif;max-width: 100%;overflow-x: hidden;}
 img { max-width: 100%}
-h2 { position: relative;margin-bottom: 70px;font-size: 35px;}
-h2::after {
- content: "";
- height: 2px;
- width: 70px;
- background-color: #0075ff;
- position: absolute;
- left: 50%;
- margin-left: -30px;
- bottom: -28px;
-}
-.card{border-radius: 30px;}
-.card h5 a {text-decoration:none;margin-right: 30px;}
-.card-text {margin-top: 15px;text-align: center;font-size: 18px;}
-.details button {
-  background-color: #233142;
-  border-radius: 30px;
-  padding: 10px;
-  font-size: 18px;
-  margin: 50px 42% 70px auto;
-  width: 250px;
-  color:#fff;
-  box-shadow: #e2e2e2;
-  outline: none;
-}
                                   /* end global */
                                   /* start nav bar  */
 .navbar-light .navbar-toggler{border: none;}
@@ -46,39 +21,85 @@ background-size: contain;
                                   /* end side header  */
                                   /* start who are we  */
 .who-are-we {margin-top: 50px;}
-
+.who-are-we  h2 {position: relative;margin-bottom: 70px;font-size: 35px;}
+.who-are-we  h2::after {
+  content: "";
+  height: 2px;
+  width: 70px;
+  background-color: #0075ff;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: -28px;
+}
 .who-are-we .part {margin-top: 50px;}
 .who-are-we .part p {font-size: 25px;margin-right: 120px;margin-top: 70px;}
                                   /* end who are we  */    
                                   /* start what we offer  */
+.head-one h2 {position: relative;margin-bottom: 70px;font-size: 35px;}
+.head-one h2::after{
+  content: "";
+  height: 2px;
+  width: 70px;
+  background-color: #0075ff;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: -28px;
+}
 .what-we-offer {background-image: url(../imgs/we-offer.png);margin-bottom: 70px;}
-.what-we-offer .card-edit {margin-top:110px;}
+.what-we-offer .card-edit {margin-top:110px;border-radius: 30px;}
+.what-we-offer .card-edit h5 a {text-decoration:none;margin-right: 30px;}
 .what-we-offer .card-edit .card-img-top{margin: 50px auto 5px;width: 60%;} 
-.what-we-offer .card-edit p {margin-bottom: 15px; font-size: 20px;}
+.what-we-offer .card-edit .card-text {margin: 15px 0; font-size: 20px;text-align: center;}
 .owl-nav {text-align: center; margin-top: 50px;outline: none;}
-.owl-nav span {padding-right: 30px; font-size: 80px;outline: none;}                  
+.owl-nav span {padding-right: 30px; font-size: 60px;outline: none;}                  
                                   /* end what we offer  */
                                   /* start our work  */
 
 .our-work {background-image: url(../imgs/bg30-Ar1web.gif);}
-.card-edit2 {margin-top:50px;position: relative;}
+.card-edit2 {margin-top:50px;position: relative;border-radius: 30px;}
 .card-edit2 a {position:absolute;top: 0;bottom: 0;right: 0;left: 0;z-index: 2;}
-.card-edit2 .card-text {font-size: 30px;margin: 15px auto ;}
+.card-edit2 .card-text {font-size: 18px;margin: 15px auto ;text-align: center;}
 .card-edit2 .card-img-top {border-radius: 30px;}
+.our-work .details button {
+  background-color: #233142;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 18px;
+  margin: 50px 38% 70px auto;
+  width: 250px;
+  color:#fff;
+  box-shadow: #e2e2e2;
+  outline: none;
+}
 
 
                                     /* end our work   */
                                     /* start information  */
 .information{margin-top:70px}
-.information .details button {margin:0 25px 0 0;width:105px;;padding: 12px;text-align: right;}
+.information .details button {
+  margin:0 25px 0 0;
+  width:105px;
+  padding: 12px;
+  text-align: right;
+  background-color: #233142;
+  border-radius: 30px;
+  font-size: 18px;
+  color:#fff;
+  box-shadow: #e2e2e2;
+  outline: none;
+}
+
 .information .group {margin-right:-20px;text-align: left;margin-top: 20px;font-size: 25px;}
 .information i span { color: #aaa;font-size: 24px;}
 .information .card-img-top {border-radius: 30px;}
 .information .card-edit3 {
   margin:50px auto 0  ;
   border: 1px solid #e2e2e2;
-  box-shadow: 5px 5px 5px #e2e2e2;
+  box-shadow: 5px 5px 5px #aba2a2;
   padding-bottom: 10px; 
+  border-radius: 30px;
 }
 .information .more {
   background-color: #233142;
@@ -89,6 +110,7 @@ background-size: contain;
   width: 200px;
   color:#fff;
   box-shadow: #e2e2e2;
+  outline: none;
 }
                                         /* end information  */
                                         /* start our clients  */
@@ -114,20 +136,153 @@ background-size: contain;
 .footer .second p {color:#fff;font-size: 22px;font-weight: normal;}
 .footer i {margin: 15px;color: #FFF;}
                                     /* end footer  */
+                                    /* START OUR WORK PAGE  */
+.our-work {background-image: url(../imgs/bg30-Ar1web.gif);}
+.our-work .work-head {margin: 30px 10px 50px 0;}
+.our-work .work-head h2 { position: relative;font-size: 35px;margin-right: 30px; }
+.our-work .work-head h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    background-color: #0075ff;
+    position: absolute;   
+    right: -25px;   
+    bottom: -5px;  
+}
+.owl-nav {text-align: center; margin-top: 50px;outline: none;}
+.owl-nav span {padding-right: 30px; font-size: 60px;outline: none;}    
+.card-edit2 {margin-top:50px;position: relative;}
+.card-edit2 a {position:absolute;top: 0;bottom: 0;right: 0;left: 0;z-index: 2;}
+.card-edit2 .card-text {font-size: 18px;margin: 15px auto ;}
+.card-edit2 .card-img-top {border-radius: 30px;}
+.our-work .pagination {justify-content: center;font-size: 22px; margin: 30px 0 0 0; padding-bottom: 30px;}
 
-
-
-                                    /*start media  */
+                                    /* END OUR WORK PAGE  */
+                                    /* START WINDOWS PAGE  */
+.card{border-radius: 30px;}
+.card-text {margin-top: 15px;text-align: center;font-size: 18px;}
+.windows {background-image: url(../imgs/bg30-Ar1web.gif);}
+.windows .work-head {margin: 30px 15px 50px 0;}
+.windows .work-head h2 { position: relative;font-size: 22px;font-weight: bold;margin-right: 30px; }
+.windows .work-head h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    background-color: #3aade6;
+    position: absolute;   
+    right: -25px;   
+    bottom: -10px;  
+}
+.windows .card-edit4 {
+    border-radius:18px;
+    width:75%;
+    margin:10px auto 30px;
+    padding: 20px 0 ;
+    box-shadow: 5px 5px 5px #d4d4d4;
+}
+.windows .card-edit4 .card-img-top {
+    border-radius: 30px;
+    width:50%;
+    margin:30px auto ;
+} 
+.windows .card-edit4 .card-text {margin:10px auto 20px ;line-height: 2.8;width: 85%;font-size: 20px;}
+                                    /* END WINDOWS PAGE  */
+                                    /* START ONE APP PAGE  */
+.one-app .one-head {margin: 20px;}
+.one-app .one-head h2 { position: relative;font-size: 35px;margin: 30px; }
+.one-app .one-head h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    background-color: #0075ff;
+    position: absolute;   
+    right: -25px;   
+    bottom: -5px;  
+}
+.one-app .background img {    width: 60%;margin: 10px 21%;}
+.one-app .about-one-app {background-image: url(../imgs/details-bg.png);background-size: cover;}
+.one-app .about-one-app p {padding: 70px 0;color:#fff;font-size: 22px;line-height:1.7;}
+.card-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin:50px auto ;
+}
+.card-carousel .my-card {
+  height: 20rem;
+  width: 12rem;
+  position: relative;
+  z-index: 1;
+  -webkit-transform: scale(0.6) translateY(-2rem);
+  transform: scale(0.6) translateY(-2rem);
+  opacity: 0;
+  cursor: pointer;
+  pointer-events: none;
+  background: #2e5266;
+  background: linear-gradient(to top, #2e5266, #6e8898);
+  transition: 1s;
+}
+.card-carousel .my-card:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  border-radius: 100%;
+  background-color: rgba(0,0,0,0.3);
+  bottom: -5rem;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+.card-carousel .my-card.active {
+  z-index: 3;
+  -webkit-transform: scale(1) translateY(0) translateX(0);
+  transform: scale(1) translateY(0) translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+  transition: 1s;
+}
+.card-carousel .my-card.prev, .card-carousel .my-card.next {
+  z-index: 2;
+  -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+  transform: scale(0.8) translateY(-1rem) translateX(0);
+  opacity: 0.6;
+  pointer-events: auto;
+  transition: 1s;
+}
+.card-carousel .my-card img {background:#fff;}
+                                    /* END ONE APP PAGE  */
+                                    /* START ARTICLES PAGE  */
+.articles .articles-head {margin: 20px;}
+.articles .articles-head h2 { position: relative;font-size: 35px;margin: 30px; }
+.articles .articles-head h2::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    background-color: #0075ff;
+    position: absolute;   
+    right: -25px;   
+    bottom: -5px;  
+}
+.articles .articles-details {
+  background-image: url(../imgs/articles.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.articles .pagination {justify-content: center;font-size: 22px; margin: 30px 0 0 0; padding-bottom: 30px;}
+                                    /* END ARTICLES PAGE  */
+                                    /*START MEDIA   */
 
 @media (max-width: 768px) { 
   .side-header h1{font-size: 2.8rem;}
   .who-are-we .part p {font-size: 18px;margin-top: 40px;margin-bottom: 50px;}
   .card h5 a {font-size: medium;}
-  .details button {margin: 50px 26% 70px auto;}
+  .our-work .details button {margin: 50px 26% 70px auto;}
   .information .group {margin-top: -35px;}
   .our-clients .owl-clients img {margin: 60px auto 0;}
   .our-work {background-size: 100% 100%;}
+  .footer .second {margin-top: 0;}
+  .articles .about-articles p{font-size: 18px;}
+
 }
-
-
   @media (min-width:1000px) {.our-clients .owl-clients img {margin: 150px auto 0;}}
