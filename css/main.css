@@ -55,7 +55,10 @@ background-size: contain;
 .what-we-offer .card-edit .card-img-top{margin: 50px auto 5px;width: 60%;} 
 .what-we-offer .card-edit .card-text {margin: 15px 0; font-size: 20px;text-align: center;}
 .owl-nav {text-align: center; margin-top: 50px;outline: none;}
-.owl-nav span {padding-right: 30px; font-size: 60px;outline: none;}                  
+.owl-nav span {padding-right: 30px; font-size: 60px;outline: none;border: 0;}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot{outline: 0;}              
                                   /* end what we offer  */
                                   /* start our work  */
 
