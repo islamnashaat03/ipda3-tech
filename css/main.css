@@ -3,11 +3,13 @@ html,body {font-family: 'Cairo', sans-serif;max-width: 100%;overflow-x: hidden;}
 img { max-width: 100%}
                                   /* end global */
                                   /* start nav bar  */
-.navbar-light .navbar-toggler{border: none;}
+.navbar-collapse {padding-left: 10px;}
+.navbar-light .navbar-toggler{border: none;outline: 0;}
 .navbar-light .navbar-toggler-icon { background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(33, 150, 243,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");}
 .navbar-brand img { height: 60px;}
 .nav-item { text-align: left;}
 .navbar-nav .dropdown-menu{text-align:left;}
+.navbar-toggler:focus{box-shadow: none}
  input[type="search"]{text-align:left;}
  form  {text-align: left;}
                                   /* end nav bar  */
