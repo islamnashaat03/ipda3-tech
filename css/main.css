@@ -61,7 +61,6 @@ background-size: contain;
 .owl-carousel button.owl-dot{outline: 0;}              
                                   /* end what we offer  */
                                   /* start our work  */
-
 .our-work {background-image: url(../imgs/bg30-Ar1web.gif);}
 .card-edit2 {margin-top:50px;position: relative;border-radius: 30px;}
 .card-edit2 a {position:absolute;top: 0;bottom: 0;right: 0;left: 0;z-index: 2;}
